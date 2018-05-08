@@ -1,0 +1,154 @@
+body {
+    background-color: #777 ;
+    height: 650px ;
+    font-family: Arial, Helvetica, sans-serif ;
+    padding-left: 50px ;
+    padding-right: 50px ;
+    font-size: 18px ;
+}
+
+.white {
+    background-color: #ebebeb ;
+}
+
+.block-container {
+    height: 900px ;
+    padding-left: 10px ;
+    padding-right: 10px ;
+}
+
+.vertical-block {
+    display: flex ;
+    flex: 1 ;
+    flex-direction: column ;
+    margin-top: 20px ;
+}
+
+.vertical_block+.vertical-block {
+    margin-top: 20px ;
+}
+
+header {
+    padding-top: 40px ;
+}
+
+.header {
+    height: 100px ;
+    
+}
+
+.nav {
+    height: 100px ;
+    color: #777 ;
+    text-align: center ;
+}
+
+.navtext {
+    padding-top: 25px ; 
+}
+
+.footer {
+    height: 100px ;
+    margin-top: 20px ;
+    text-align: center ;
+    color: #777 ;
+}
+
+footer {
+    padding-top: 40px ;
+}
+
+.horizontal-block {
+    height: 300 px ;
+    display: flex ;
+}
+
+.horizontal-block_.horizontal-block {
+    margin-left: 20px ;
+}
+
+.aside {
+    height: 300px ;
+    margin-left: 20px ;
+    flex: 1 ;
+    color: #777 ;
+    text-align: center ;
+}
+
+.section {
+    height: 300px ;
+    flex: 1 ;
+    color: #777 ;
+    text-align: center ;
+}
+
+.article {
+    color: #ebebeb ;
+    background-color: #777 ;
+    display: flex ;
+    height: 240px ;
+    margin-left: 5px ;
+    margin-right: 5px ;
+    margin-bottom: 5px ;
+    flex-direction: column ;
+    text-align: center ;
+}
+
+.absolute-paragraph {
+    background-color: #ebebeb ;
+    color: #777 ;
+    display: flex ;
+    flex: 1 ;
+    height: 40px ;
+    text-align: justify;
+    margin-bottom: 5px ;
+    margin-left: 5px ;
+    margin-right: 5px ;
+    overflow: scroll ;
+}
+
+.h123 {
+    color: #777 ;
+    background-color: #ebebeb ;
+    display: flex ;
+    flex-direction: row ;
+    flex: 1 ;
+    height: 40px ;
+    margin-right: 5px ;
+    margin-left: 5px ;
+    margin-bottom: 5px ;
+    text-align: center ;
+    font-size: 50% ;
+
+}
+
+h1 {
+    flex: 1 ;
+    padding: 10px ;
+    margin-top: 20px ;
+    font-size: 14px ;
+}
+
+h2 {
+    flex: 1 ;
+    padding: 10px ;
+    margin-top: 20px ;
+    font-size: 14px ;
+}
+
+h3 {
+    flex: 1 ;
+    padding: 10px ;
+    margin-top: 20px ;
+    font-size: 14px ;
+}
+
+.h123+.h123 {
+    margin-left: 5px ;
+}
+
+header {
+    text-align: center ;
+    color: #777 ;
+}
+
